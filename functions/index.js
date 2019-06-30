@@ -4,7 +4,7 @@ const LINKS_PER_PAGE = 5;
 const admin = require("firebase-admin");
 admin.initializeApp({
   credential: admin.credential.applicationDefault(),
-  databaseURL: "https://hooks-news-app.firebaseio.com"
+  databaseURL: "https://hooks-news-app-b9557.firebaseio.com"
 });
 const db = admin.firestore();
 // // Create and Deploy Your First Cloud Functions
